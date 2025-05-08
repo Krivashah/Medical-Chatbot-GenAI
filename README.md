@@ -1,4 +1,12 @@
-# End-to-end-Medical-Chatbot-using-Llama2
+# MedBot: AI-Powered Medical Assistant with Custom LLM and Semantic Search
+# Overview
+This project is an AI-driven medical assistant that analyzes symptoms and provides preliminary treatment recommendations. It leverages a custom-built transformer-based LLM trained on medical datasets and uses Pinecone for semantic search over 500+ medical documents. The application is containerized with Docker and deployed on AWS using CI/CD pipelines.
+
+# Key Features
+Custom LLM: Built from scratch using PyTorch and Hugging Face Transformers, trained on 10GB of medical texts.
+Semantic Search: Pinecone vector database enables fast, accurate retrieval of medical information.
+Scalable Deployment: Dockerized and deployed on AWS EC2 with 99% uptime and automated CI/CD (GitHub Actions).
+Modular Codebase: Organized with FastAPI (backend), React (frontend), and reusable Python modules.
 
 # How to run?
 ### STEPS:
