@@ -1,4 +1,12 @@
-streamlit  
-langchain-google-genai  
-python-dotenv  
-protobuf==3.20.3
+
+protobuf==5.32.0  # Fixes proto version warnings
+langchain==0.3.25
+langchain-community==0.3.23
+pypdf==5.4.0
+python-dotenv==1.1.0
+pinecone==6.0.2
+langchain-pinecone==0.1.0  # NEW DEPENDENCY
+google-generativeai==0.8.5
+langchain-google-genai==2.0.10
+huggingface-hub==0.24.0  # Required for embeddings
+flask==3.0.3
